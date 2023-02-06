@@ -77,8 +77,8 @@ color_pal = [x['color'] for x in plt.rcParams['axes.prop_cycle']]
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-idcl ="8430dac4c0cc41d580798dc2b97b4cd5" 
-clsec = "22dd2a849bbc4e40b63c7bf4f7d353f5"
+idcl ="84888d5" 
+clsec = "22d8863c7bf4f7d353f5"
 
 client_credentials_manager = SpotifyClientCredentials(client_id=idcl, client_secret=clsec)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
