@@ -1,0 +1,9 @@
+pandas==2.1.*            # Data manipulation and analysis
+streamlit==1.26.*        # Framework for creating web applications
+altair==5.1.*            # Declarative statistical visualization library
+numpy
+matplotlib
+pre-commit==3.5.0        # Code quality and style checks before commit
+black==23.9.1            # Code formatting tool
+commitizen==3.10.1       # Commit message convention tool
+ruff==0.0.292            # Pre-commit hook management tool
